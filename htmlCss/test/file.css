@@ -23,6 +23,7 @@ p{
     margin-right: 10px;
     vertical-align: top;
     margin-left: 10px;
+    
 }
 .thumbnail{
     width: 300px;
@@ -31,6 +32,7 @@ p{
      border: none;
     
 }.caption{
+    margin-top: 0px;
     display: inline-block;
     font-size: 15px;
     font-family: Arial;
@@ -65,13 +67,21 @@ p{
 
 }
 .channel-profile{
-    width: 20%;
+   vertical-align: top;
     display: inline-block;
+    width: 19%;
 }
 .channel-info{
+    margin-top: 0px;
     display: inline-block;
-    width: 80%;
+    width: 79%;
 }
 .channel-picture{
     width: 80%;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+.info{
+    margin-top: 10px;
 }

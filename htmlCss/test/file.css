@@ -14,8 +14,8 @@
     width: 35px;
     align-items:first baseline;
 }
-p{
-    font: arial;
+.main{
+    font-family: Arial;
 }
 .vp{
     width: 300px;
